@@ -2,6 +2,10 @@
 
 ## What Is It?
 
+Scikit‑learn provides powerful tools for building supervised machine‑learning models. However, users still need to assemble the full workflow themselves—starting from data preparation, feature selection, model training, hyperparameter tuning, and evaluation, all the way to deployment. Along this pipeline, it’s easy to introduce a common mistake: data leakage.
+
+Many users also struggle to determine which packages they need to import for each step. The biggest challenge, however, is often deciding how to perform feature selection for categorical variables and how to apply dimensionality reduction to numerical variables in order to address multicollinearity.
+
 ML Model Builder is an end-to-end supervised machine learning pipeline that automates the entire process from raw data to final predictions. It handles data preparation, feature selection, model training, hyperparameter optimization, model comparison, and prediction — all in one clean, flexible framework.
 
 ---
